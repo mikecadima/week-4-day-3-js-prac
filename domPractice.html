@@ -1,0 +1,51 @@
+<body>
+    <h1 id="heading"></h1>
+    <ul id="list">
+      <li id="lettuce" class="green list-item">Lettuce</li>
+      <li id="tomato" class="red list-item">Tomato</li>
+      <li id="cheese" class="yellow list-item">Cheese</li>
+      <li id="burger">Burger</li>
+    </ul>
+    <script>
+        //small ex 1-----------
+        const heading = document.querySelector("h1")
+        heading.innerText = 'Toppings'
+
+        //small ex 2-----------
+
+        let element = document.getElementById("burger")
+        element.classList.add("List-item")
+
+        //small ex 3----------- 
+        const newList = document.createElement('li')
+        newList.innerText = "bun"
+        list.append(newList)
+
+        //large ex-------------------
+        <div id="root">
+
+        const headerElement = document.createElement('h1')
+        const listElement = document.createElement('ul')
+
+        const listItemOne = document.createElement('li')
+        const listItemTwo = document.createElement('li')
+        const listItemThree = document.createElement('li')
+
+        const root = document.querySelector('#root')
+
+        root.append(headerElement)
+        root.append(listElement)
+        const root = document.querySelector('#root')
+
+        root.append(headerElement)
+        root.append(listElement)
+
+        listElement.append(listItemOne, listItemTwo, listItemThree)
+        headerElement.innerText = "Navigation"
+        listItemOne.innerText = "Home"
+        listItemTwo.innerText = "Store"
+        listItemThree.innerText = "Contact"
+
+        </div>
+    </script>
+  </body>
